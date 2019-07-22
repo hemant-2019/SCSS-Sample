@@ -1,0 +1,128 @@
+/*
+ *
+ *
+ *
+ *
+ */
+// Color system
+
+$white:    #fff !default;
+$gray-100: #f7f7f7 !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #808080 !default;
+$gray-800: #444444 !default;
+$gray-900: #303030 !default;
+$black:    #000 !default;
+$dark-green: #18998e !default;
+$ipro-gray-50: #f2f2f2 !default;
+$ipro-gray-75: #e6e5e5 !default;
+$ipro-100: #f7f7f7 !default;
+$ipro-gray-800: #444444 !default;
+$ipro-blue: #367ab3;
+
+$blue:         #007bff !default;
+$indigo:       #6610f2 !default;
+$purple:       #6f42c1 !default;
+$pink:         #e83e8c !default;
+$red:          #dc3545 !default;
+$orange:       #ea723d !default;
+$yellow:       #ffc107 !default;
+$cyan:         #17a2b8 !default;
+$green:        #32a69c !default;
+$ipro-l-green: #1c9d92 !default;
+$teal:         #1ea69a !default;
+$ipro-hding:   #1a1a1a !default;
+$grea-svg:     #b3b3b3 !default;
+$gray:          #808080 !important;
+$over-shad: rgba(30,166,154,0.9) !default;
+$background_color_1: rgba(255, 255, 255, 0.5) !default;
+$brr_clr: #868585 !default;
+
+
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+
+$ipro-primary:       $blue !default;
+$ipro-secondary:     $gray-600 !default;
+$ipro-success:       $green !default;
+$ipro-info:          $cyan !default;
+$ipro-warning:       $yellow !default;
+$ipro-danger:        $red !default;
+$ipro-light:         $gray-100 !default;
+$ipro-dark:          $gray-800 !default;
+
+
+// Body
+//
+// Settings for the `<body>` element.
+
+// Google Fonts
+// @import url('https://fonts.googleapis.com/css?family=Rubik:300,400,400i,500,500i,700,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,800&display=swap');
+// Font Variables
+// $rubik: 'Rubik', sans-serif;
+$rubik: 'Raleway', sans-serif;
+$font-weight-lighter:         lighter !default;
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-small-bold:      500 !default;
+$font-weight-more-bold:       600 !default;
+$font-weight-bold:            700 !default;
+$font-weight-extra-bold:      900 !default;
+
+// Styles
+body {
+  font-family: $rubik;
+  font-weight: $font-weight-normal;
+  font-size: 16px;
+  line-height: 1.3;
+  // background: $gray-100;
+}
+
+$body-bg:                   $white !default;
+$body-color:                $gray-900 !default;
+
+$width-100:   100%;
+$hight-100:   100%;
+$max-auto:    auto;
+$text-center: center;
+$inline-block: inline-block;
+$pointer: pointer;
+$bdr-nune: 0 !default;
+$block: block;
+$f-left: left;
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+// Defining values
+// $screen-sm-min: 768px;
+// $screen-xs-max: ($screen-sm-min - 1);
+// $screen-md-min: 992px;
+// $screen-sm-max: ($screen-md-min - 1);
+// $screen-lg-min: 1200px;
+// $screen-md-max: ($screen-lg-min - 1);
+
+$screen-sm-min: 576px;
+$screen-xs-max: ($screen-sm-min - 1);
+
+$screen-md-min: 768px;
+$screen-sm-max: ($screen-md-min - 1);
+
+$screen-lg-min: 992px;
+$screen-md-max: ($screen-lg-min - 1);
+
+$screen-xl-min: 1200px;
+$screen-lg-max: ($screen-xl-min - 1);
+
+
+$screen-xxxl-min: 1600px;
+$screen-xxl-max: ($screen-xxxl-min - 1);
+
